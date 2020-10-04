@@ -13,7 +13,6 @@ beforeEach(() => {
 describe('.move', () => {
   describe('when placement is invalid', () => {
     beforeEach(() => {
-      // jest.spyOn(Grid.prototype, 'isValidPlacement').mockImplementation(() => false);
       robot.update(0,0, Direction.North)
     })
 
