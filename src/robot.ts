@@ -14,7 +14,7 @@ export class Robot {
   move() {
     let { x, y } = this.proposedMovement()
 
-    if this.grid.isValidPlacement(x, y) {
+    if (this.grid.isValidPlacement(x, y)) {
       this.update(x, y, this.direction)
 
       return true

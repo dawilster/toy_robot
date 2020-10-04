@@ -6,5 +6,8 @@ class Grid {
         this.width = width;
         this.height = height;
     }
+    isValidPlacement(x, y) {
+        return (x < this.width && x >= 0) && (y < this.height && y >= 0);
+    }
 }
 exports.Grid = Grid;
