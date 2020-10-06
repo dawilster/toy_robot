@@ -12,7 +12,6 @@ export class App  {
   }
 
   run(commands: string[]) {
-    console.log(commands)
     commands.forEach((command) => {
       let commandName = command.split(' ')[0]
 
@@ -93,7 +92,6 @@ export class App  {
   }
 }
 
-// add support for consuming an input file of commands
 let app = new App
 
 let commands = fs.readFileSync('commands.txt','utf8');

@@ -13,7 +13,6 @@ class App {
         this.grid = new Grid_1.Grid;
     }
     run(commands) {
-        console.log(commands);
         commands.forEach((command) => {
             let commandName = command.split(' ')[0];
             if (commandName === 'PLACE') {
