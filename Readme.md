@@ -1,8 +1,7 @@
-==README
-
 **Toy Robot by William Porter**
 
 **Getting Started**
+
 This CLI app takes instructions through the `commands.txt` file. Place valid commands into that file and run `yarn start`
 
 ```
